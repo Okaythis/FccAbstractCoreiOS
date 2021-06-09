@@ -7,5 +7,5 @@ Pod::Spec.new do |spec|
   spec.summary      = 'FccAbstractCore'
   spec.source       = { :http => 'https://github.com/Okaythis/FccAbstractCoreiOS/raw/0a95090b85fe30083152a4d61b8e6d3edc2b97a0/FccAbstractCore.zip' }
   spec.ios.deployment_target = '10.0'
-  spec.ios.vendored_frameworks = 'FccAbstractCore.framework'
+  spec.ios.vendored_frameworks = 'FccAbstractCore/FccAbstractCore.framework'
 end
